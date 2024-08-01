@@ -2,19 +2,30 @@
 
 ## Project Overview
 
-Segmentation: Identify and delineate different regions or structures within the image (e.g., identifying tumor regions, separating different tissue types).  Feature Extraction: Extract quantitative features such as texture, shape, color, and intensity.  Feature Extraction: Extract quantitative features such as texture, shape, color, and intensity.  Classification: Use machine learning or deep learning techniques to classify regions based on their appearance (e.g., normal vs. pathological tissue).  Stain Normalization: Normalize the staining to reduce variability and improve the consistency of analyses.
-
 The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide .svs images (WSI) discussed within the Nature publication "Multi-omic machine learning predictor of breast cancer therapy response".
 
-## Setup
+## Installation Instructions
 
-Download the training and validation datasets from https://zenodo.org/records/6337925 and then install the following packages with the command: 
+1. **Update the package list:**
+    ```bash
+    sudo apt update
+    ```
 
-sudo apt-get install libopenslide0 openslide-tools
+2. **Install the required packages:**
+    ```bash
+    sudo apt-get install libopenslide0 openslide-tools
+    ```
 
-```bash
-!pip install -r requirements.txt
-```
+3. **Install the Python dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Download the training and validation datasets from 
+   [Zenodo](https://zenodo.org/records/6337925).**
+
+5. **Run the Jupyter notebook:**
+    Open and run `wsi_svs_thumbnail.ipynb` using Jupyter Notebook.
 
 ## License
 
