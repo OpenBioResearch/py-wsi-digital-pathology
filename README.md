@@ -8,7 +8,7 @@ The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide
 
 ## Setup
 
-Download the training and validation datasets and install the following packages with the command: 
+Download the training and validation datasets from https://zenodo.org/records/6337925 and then install the following packages with the command: 
 
 sudo apt-get install libopenslide0 openslide-tools
 
