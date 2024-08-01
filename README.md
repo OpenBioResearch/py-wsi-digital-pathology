@@ -1,17 +1,16 @@
 # py-wsi-digital-pathology
-Explore ML models for digital patholgy images using py_wsi
-
-sudo apt-get install libopenslide0 openslide-tools
 
 ## Project Overview
 
-This repo showcases Natural Language Processing (NLP) projects focused on  techniques to analyze clinical note dataset. BioBert, ClinicalBert and medacy are leveraged due to their biomedical domain specificity.
+Segmentation: Identify and delineate different regions or structures within the image (e.g., identifying tumor regions, separating different tissue types).  Feature Extraction: Extract quantitative features such as texture, shape, color, and intensity.  Feature Extraction: Extract quantitative features such as texture, shape, color, and intensity.  Classification: Use machine learning or deep learning techniques to classify regions based on their appearance (e.g., normal vs. pathological tissue).  Stain Normalization: Normalize the staining to reduce variability and improve the consistency of analyses.
 
-The notebooks are focused on gaining insights from clinician notes through entity recognition, sentiment analysis, relation extraction, and topic modeling and to a lesser extent of building a predictive model to detect sepsis
+The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide .svs images (WSI) discussed within the Nature publication "Multi-omic machine learning predictor of breast cancer therapy response".
 
 ## Setup
 
 Download the training and validation datasets and install the following packages with the command: 
+
+sudo apt-get install libopenslide0 openslide-tools
 
 ```bash
 !pip install -r requirements.txt
