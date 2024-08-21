@@ -30,6 +30,10 @@ The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide
 5. **Run the Jupyter notebook:**
     Open and run `wsi_svs_thumbnail.ipynb` using Jupyter Notebook.
 
+## Outputs
+
+![svs-slide-thumbnails](svs-thumbnails.png)
+
 ## License
 
 Dataset Information
