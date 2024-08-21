@@ -14,6 +14,8 @@ The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide
 2. **Install the required packages:**
     ```bash
     sudo apt-get install libopenslide0 openslide-tools
+    ```
+    ```bash
     sudo apt-get install libjpeg-dev zlib1g-dev
     ```
 
