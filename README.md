@@ -34,6 +34,12 @@ The Jupyter notebook wsi_svs_thumbnails.ipynb displays thumbnails of whole slide
 
 ![svs-slide-thumbnails](svs-thumbnails.png)
 
+## Test Environments
+
+* GitHub Codespaces
+* Google Colab
+* Python 3.12.1
+
 ## License
 
 Dataset Information
